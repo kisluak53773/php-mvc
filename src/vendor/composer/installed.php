@@ -3,7 +3,7 @@
         'name' => 'dzianis/src',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '00217d99bb215b6efc8d2f436a3a2a05d4820d4a',
+        'reference' => 'd7112361ea1dbe13e6c68bbdfbb09ef5fc520668',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'dzianis/src' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '00217d99bb215b6efc8d2f436a3a2a05d4820d4a',
+            'reference' => 'd7112361ea1dbe13e6c68bbdfbb09ef5fc520668',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
