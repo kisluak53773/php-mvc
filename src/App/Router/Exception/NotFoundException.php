@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Router\Exception;
 
-use Exception;
-
-class NotFoundException extends Exception
-{}
+class NotFoundException extends RouterException
+{
+    protected $message = "404 Not Found";
+}

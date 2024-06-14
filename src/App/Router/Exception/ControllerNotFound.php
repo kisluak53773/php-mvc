@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Router\Exception;
 
-use Exception;
-
-class ControllerNotFound extends Exception
-{}
+class ControllerNotFound extends RouterException
+{
+    protected $message = "Such controller does not exist";
+}

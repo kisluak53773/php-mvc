@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Router\Exception;
 
-use Exception;
-
-class WrongControllerDefinition extends Exception
-{}
+class WrongControllerDefinition extends RouterException
+{
+    protected $message = 'Wrong controller definition';
+}

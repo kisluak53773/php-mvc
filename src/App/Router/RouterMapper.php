@@ -33,7 +33,7 @@ class RouterMapper
         $action = $this->routes[$routeUrl][$method];
 
         if (!$action) {
-            throw new NotFoundException("404 Not Found");
+            throw new NotFoundException();
         }
 
         if (!is_array($action)) {
